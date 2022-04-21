@@ -1,0 +1,44 @@
+/* Font-family:"Raleway"
+Headerhöhe:76px
+Logofarbe: #666
+Logofarbe in hover: #333
+Menüfarbe: #333 
+Menüfarbe in hover: #337ab7 */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #666;
+    padding: 20px 4%;
+    border-bottom: 1px solid rgb(174, 174, 174);
+    border-top: 2px solid #666;
+}
+
+header>a {
+    display: block;
+    padding-left: 30px;
+    color: #666;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    margin-right: 20px;
+    text-decoration: none;
+    align-items: center;
+    color: #666;
+    font-size: 10px;
+}
